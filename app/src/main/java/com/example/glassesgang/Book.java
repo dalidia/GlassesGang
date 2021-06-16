@@ -32,7 +32,7 @@ public class Book implements Serializable {
         this.status = "available";
     }
 
-    public Book(String title, String author, String ISBN, String owner) {
+    public Book(String title, String author) {
         this.title = title;
         this.author = author;
         this.ISBN = ISBN;
